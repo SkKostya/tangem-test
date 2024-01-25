@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tangem Test</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="line-add">
+        <div class="line-add__wrapper">
+          <img
+            src="./images/line-gift.jpg"
+            alt="Tangem gift"
+            class="line-add__img"
+          />
+
+          <div class="line-add__offers">
+            <span>
+              <b>Black Friday,</b>
+              <span class="line-add__offers-date">24-27 Nov</span>
+            </span>
+            <span class="line-add__offers-dot"></span>
+            <span class="line-add__offers-discount">10%OFF</span>
+            <span class="line-add__offers-dot"></span>
+            <span class="line-add__offers-code">
+              Use code
+              <b class="promo-code" data-code="10FRIDAY" alt="copy text">
+                10FRIDAY
+              </b>
+              at checkout
+            </span>
+          </div>
+
+          <div class="line-add__actions">
+            <a href="#" class="line-add__shop-button">
+              <span class="line-add__shop-text">Shop now</span>
+
+              <span class="line-add__arrow-icon">
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10.8373 22.8105C11.1302 23.1034 11.6051 23.1034 11.898 22.8105L19.1621 15.5463C19.2981 15.4104 19.3709 15.2352 19.3807 15.0573C19.4058 14.8378 19.3342 14.6094 19.1659 14.441L11.902 7.17716C11.6092 6.88427 11.1343 6.88427 10.8414 7.17717C10.5485 7.47006 10.5485 7.94493 10.8414 8.23783L17.5954 14.9918L10.8373 21.7498C10.5445 22.0427 10.5445 22.5176 10.8373 22.8105Z"
+                    fill="#D9D9D9"
+                    fill-opacity="0.4"
+                  />
+                </svg>
+              </span>
+            </a>
+            <button class="line-add__close close-button">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697Z"
+                  fill="white"
+                  fill-opacity="0.3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------- -->
+
+      <div class="block-add">
+        <div class="block-add__info">
+          <button class="block-add__close close-button">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.46967 16.4697C6.17678 16.7626 6.17678 17.2374 6.46967 17.5303C6.76256 17.8232 7.23744 17.8232 7.53033 17.5303L12 13.0607L16.4697 17.5303C16.7626 17.8232 17.2374 17.8232 17.5303 17.5303C17.8232 17.2374 17.8232 16.7626 17.5303 16.4697L13.0607 12L17.5303 7.53033C17.8232 7.23744 17.8232 6.76256 17.5303 6.46967C17.2374 6.17678 16.7626 6.17678 16.4697 6.46967L12 10.9393L7.53033 6.46967C7.23744 6.17678 6.76256 6.17678 6.46967 6.46967C6.17678 6.76256 6.17678 7.23744 6.46967 7.53033L10.9393 12L6.46967 16.4697Z"
+                fill="white"
+                fill-opacity="0.3"
+              />
+            </svg>
+          </button>
+
+          <h2 class="block-add__title">Black Friday</h2>
+          <b class="block-add__offers-discount">
+            <span class="block-add__discount-text">10%OFF</span>
+          </b>
+          <p class="block-add__offers-code">
+            Use code
+            <b class="promo-code" data-code="10FRIDAY" alt="copy text">
+              10FRIDAY
+            </b>
+            at checkout
+          </p>
+
+          <a href="#" class="block-add__shop-button">
+            Shop now<span> through Monday</span>
+          </a>
+        </div>
+      </div>
+
+      <button class="show-again">Show add`s again</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
